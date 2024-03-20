@@ -10,6 +10,7 @@ public class Exercicio6 {
 		System.out.println("Digite o numero:");
 		numPrimo= entrada.nextInt();
 		entrada.close();
+		
 		for(divisor=numPrimo;divisor>0;divisor--) {
 			if(numPrimo%divisor==0) {
 				contador++;
@@ -20,6 +21,7 @@ public class Exercicio6 {
 		}else {
 			System.out.println("é primo");
 		}
+
 
 	}
 
